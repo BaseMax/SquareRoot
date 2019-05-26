@@ -21,9 +21,12 @@ double root(double n){
 }
 
 int main() {
-	cout << root(4) << "\n";
-	cout << root(5) << "\n";
-	cout << root(15) << "\n";
-	cout << root(16) << "\n";
+	// cout << root(4) << "\n";
+	// cout << root(5) << "\n";
+	// cout << root(15) << "\n";
+	// cout << root(16) << "\n";
+	for(int i=1;i<=100;i++) {
+		cout << i << "\t = \t" << root(i) << "\n";
+	}
 	return 0;
 }
